@@ -1,0 +1,26 @@
+npm create vite@latest . 
+ignore files
+choose reactjs + js
+npm install
+
+delete Index.css, App.css, App.jsx
+only let the main.js or main.js
+
+
+
+let the structure like:
+
+src/
+  ├── assets/         # Para imagens, fonts, etc
+  ├── components/     # Componentes reutilizáveis
+  ├── pages/         # Páginas da aplicação
+  ├── styles/        # Estilos globais e temas
+  ├── routes/        # Configuração de rotas
+  ├── services/      # Serviços externos (API, etc)
+  └── utils/         # Funções utilitárias
+
+npm run dev
+
+dependencies
+    - styled-components
+    - react-router-dom
