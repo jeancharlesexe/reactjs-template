@@ -24,3 +24,7 @@ npm run dev
 dependencies
     - styled-components
     - react-router-dom
+
+
+on the same root of main.jsx, modify the index.html
+put the basic html to change the title and ico
